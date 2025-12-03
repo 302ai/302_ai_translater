@@ -1,0 +1,43 @@
+# 钱多多
+# OPENAI_API_URL=https://www.gptapi.us/v1
+# OPENAI_API_KEY=sk-nb8CGxSJwWmvJEjLAc4713B1C28447F88740BaB6A0170b7b
+
+# GPT302
+# OPENAI_API_URL=https://test-api.gpt302.com/v1
+# OPENAI_API_KEY=sk-ss8LIfme0R7L89MYHK1ZPAYhTtwchcYJxfkuc2iOZrsnCqEa
+
+# 模型
+# OPENAI_API_VERSION=gpt-3.5-turbo-16kb
+# AI_TEMP=0.7
+# AI_MAX_TOKENS=4000
+# OPENAI_API_ORG=Unkonwn
+
+# Google Cloud
+# GOOGLE_API_KEY=AIzaSyCquW5jlTgTGc7jrNEPPRBng4G8NaUyc-Q
+
+# Database
+# DB_HOST=localhost
+# DB_PORT=3309
+# DB_USER=root
+# DB_PASS=123456
+# DB_DATABADE=translate
+# DATABASE_URL="mysql://root:123456@localhost:3309/translate"
+# DATABASE_URL=mysql://$DB_USER:$DB_PASS@$DB_HOST:$DB_PORT/$DB_DATABADE
+
+
+# 302AI API
+NEXT_PUBLIC_302AI_ENV=local
+NEXT_PUBLIC_302AI_AUTH=https://test-api2.302.ai/bot/v1/
+NEXT_PUBLIC_302AI_FETCH=https://test-api.302.ai/v1/
+
+# Admin account
+ADMIN_USERNAME=tt-admin
+ADMIN_PASSWORD=tt-123456
+
+# Admin token
+ADMIN_TOEKN_NAME=T_ADMIN_TOKEN_V2
+ADMIN_TOEKN_VALUE=TESTDFSDJJ#23213dsfsdfJDWdsfdDDCY=
+
+# Mysql
+DATABASE_URL="mysql://root:123456@localhost:3309/translate"
+# DATABASE_URL="mysql://root:123456@translate-app-mysql:3308/translate"

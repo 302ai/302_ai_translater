@@ -1,0 +1,31 @@
+@tailwind utilities;
+
+
+@layer utilities {
+  .my-text-box {
+    @apply rounded-md border-[1px] border-solid border-[rgba(222,222,222,1)] hover:border-[#7728f5];
+  }
+
+	.my-button {
+		@apply text-[#bbb] hover:text-[#7728f5] cursor-pointer;
+	}
+
+	.my-tag {
+		@apply bg-white text-[#6c6c6c] hover:text-[#7728f5] py-[2px];
+	}
+	.my-tag-active {
+		@apply text-[#7728f5] bg-[#E1CBFD] text-[#7728f5] border-[#7728f5]
+	}
+
+	.my-icon {
+		@apply text-[20px]
+
+	}
+}
+
+/* scroll */
+.my-scroll {
+	overflow-x: overlay;
+}
+
+
